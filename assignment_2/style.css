@@ -1,0 +1,51 @@
+@font-face {
+	font-family: 'MuseoSlab';
+	src: url('MuseoSlab-500.woff') format('woff');
+}
+
+.checkered-background {
+    background-image: url("3745726.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.poster-background {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: white;
+	height: 1191px;
+	width: 842px;
+	margin: auto;
+}
+
+#photo {
+	display: flex;
+	transform: scale(.5);
+}
+
+#headline {
+	display: flex;
+	width: 780px;
+	color: #26364F;
+	font-size: 54pt;
+	font-family: 'MuseoSlab', sans-serif;
+	margin: auto;
+}
+#body {
+	background-color: #26364F;
+	color: white;
+	font-size: 16pt;
+	font-family: 'Quicksand', sans-serif;
+	height: 400px;
+	width: 450px;
+	padding: 30px;
+	margin: 60px;
+	align-self: flex-end;
+}
+#date-time {
+	color: #c03c49;
+	font-size: 24pt;
+	margin: auto;
+}
