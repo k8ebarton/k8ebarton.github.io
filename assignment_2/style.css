@@ -42,6 +42,7 @@
 	width: 450px;
 	padding: 30px;
 	margin: 60px;
+	display: flex;
 	align-self: flex-end;
 }
 #date-time {

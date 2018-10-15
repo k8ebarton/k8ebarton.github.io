@@ -1,0 +1,30 @@
+@font-face {
+	font-family: 'victorianna';
+	src: url('fonts/VTFVictoriannaThin.woff') format('woff');
+}
+
+h1 {
+	font-family: "victorianna";
+	top: 0;
+	left: 0;
+}
+
+p {
+	width: 200px;
+	position: absolute;
+	color: yellow;
+}
+
+img { 
+	width: 200px;
+	position: absolute;
+	top: 200px;
+	left: 25%;
+	transform: translate(30px);
+	 }
+
+.text {
+	position: absolute;
+	left: 100px;
+	right: 100px;
+}
