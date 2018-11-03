@@ -1,3 +1,8 @@
+@font-face {
+	font-family: "Schnyder";
+	src: url('SchnyderM-BoldItalic.woff') format('woff');
+}
+
 .active {
 	background-color: white; 
 }
@@ -11,12 +16,21 @@
 	padding: 0px 0px 0px 40px;
 }
 
+.title {
+	font-family: 'Schnyder', serif;
+	font-size: 34pt;
+}
+
+.subhead {
+	font-family: 'Schnyder', serif;
+}
+
 ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 15px 0px 0px 0px;
 	width: 180px;
-	height: 100%;
+	height: 700px;
 	background-color: #b27a78;
 }
 
@@ -29,23 +43,8 @@ li a {
 	text-decoration: none;
 }
 
+/* change link cover on hover */
+
 li a:hover {
 	background-color: white;
 }
-
-#body-01 {
-	font-size: 84pt;
-	padding: 0px 0px 0px 40px;
-}
-
-#body-02 {
-	font-size: 6pt;
-	width: 30px;
-	padding: 0px 0px 0px 40px;
-}
-
-#body-03 {
-	font-size: 360pt;
-	padding: 0px 0px 0px 40px;
-}
-

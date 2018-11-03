@@ -34,18 +34,44 @@ li a:hover {
 }
 
 #body-01 {
-	font-size: 84pt;
+	font-size: 24pt;
+	width: 800px;
+	position: relative;
+	top: 100px;
+	padding: 0px 0px 0px 40px;
+}
+
+#link {
+	position: relative;
+	top: 100px;
+}
+
+#footer-01 {
+	font-size: 24pt;
+	width: 800px;
+	align-self: flex-end;
 	padding: 0px 0px 0px 40px;
 }
 
 #body-02 {
-	font-size: 6pt;
-	width: 30px;
+	font-size: 24pt;
+	width: 800px;
+	align-self: flex-start;
 	padding: 0px 0px 0px 40px;
 }
 
 #body-03 {
-	font-size: 360pt;
+	font-size: 24pt;
+	width: 600px;
+	align-self: center;
 	padding: 0px 0px 0px 40px;
 }
 
+.copybox {
+	width: 1200px;
+	height: 1400px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 0px 0px 0px 40px;
+}

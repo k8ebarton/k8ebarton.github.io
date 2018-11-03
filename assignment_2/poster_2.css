@@ -1,0 +1,51 @@
+.flex_container {
+	display: flex;
+}
+
+.flex_item {
+	flex: 1;
+} 
+
+.flex_column {
+	flex-direction: column;
+}
+
+.full_height {
+	height: 100vh;
+}
+
+.white_background {
+	background: white;
+}
+
+.main {
+	order: 3;
+	padding: 20px;
+	border-left: 1px solid #777777;
+	border-right: 1px solid #777777;
+}
+
+h1 {
+	font-size: 32pt;
+}
+
+h2 {
+	font-size: 18pt;
+}
+
+.sidebar { 
+	background: white;
+	padding: 20px;
+ }
+
+ .sidebar_left {
+ 	order: 1;
+ 	width: 40%;
+ }
+
+ .sidebar_right {
+ 	order: 2;
+ 	width: 20%;
+ 	color: red;
+ 	font-size: 24pt;
+ }

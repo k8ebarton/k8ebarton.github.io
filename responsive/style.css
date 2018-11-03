@@ -1,0 +1,32 @@
+body {
+	margin: 0;
+}
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.cube {
+	width: 300px;
+	height: 300px;
+	background-color: blue;
+	margin: 20px auto;
+}
+
+/*start of mobile layout*/
+@media (min-width: 700px) {
+	.flex {
+		flex-wrap: wrap;
+		justify-content: space-between;
+		flex-direction: row;
+	}
+	.cube {
+		width: 100px;
+		height: 100px;
+	}
+}
+/*end of mobile layout*/

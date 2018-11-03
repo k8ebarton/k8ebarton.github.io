@@ -3,6 +3,33 @@
 	src: url('MuseoSlab-500.woff') format('woff');
 }
 
+.flexContainer {
+	display: flex;
+}
+
+.space_around {
+	justify-content: space-around;
+}
+
+.blueBackground {
+	background: lightskyblue;
+}
+
+.index_body {
+	font-size: 24pt;
+}
+
+.nav {
+	list-style: none;
+}
+
+.nav a {
+	text-decoration: none;
+	display: block;
+	padding: 0 1em;
+	color: white;
+}
+
 .checkered-background {
     background-image: url("3745726.jpg");
     height: 100%; 

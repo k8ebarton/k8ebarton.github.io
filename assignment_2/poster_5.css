@@ -1,0 +1,50 @@
+.flex_container {
+	background-image: url("3745726.jpg");
+	height: 100%; 
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.flex-grid {
+	display: flex;
+}
+
+.flex-grid .col {
+	flex: 1;
+}
+
+.flex-grid-thirds {
+	display: flex;
+	justify-content: space-between;
+}
+
+.flex-grid-thirds .col {
+	width: 32%;
+}
+
+* { 
+	box-sizing: border-box;
+}
+
+body {
+	padding: 20px;
+}
+
+.flex-grid {
+	margin: 0 0 20px 0;
+}
+
+.col {
+	background: navy;
+	color: white;
+	padding: 20px;
+	align-content: center;
+}
+
+.col_headline {
+	background: navy;
+	color: white;
+	padding: 20px;
+	font-size: 32pt;
+}

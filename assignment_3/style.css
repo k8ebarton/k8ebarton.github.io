@@ -1,0 +1,70 @@
+.active {
+	background-color: white; 
+}
+
+.flex-container {
+	display: flex;
+}
+
+.body-01 {
+	flex-direction: column;
+	padding: 0px 0px 0px 40px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 15px 0px 0px 0px;
+	width: 180px;
+	height: 700px;
+	background-color: #b27a78;
+}
+
+li a {
+	display: block;
+	width: 180px;
+	color: #F7CAC9;
+	font-size: 14pt;
+	padding: 8px 20px;
+	text-decoration: none;
+}
+
+@font-face {
+	font-family: "Schnyder";
+	src: url('SchnyderM-BoldItalic.woff') format('woff');
+}
+
+@font-face {
+	font-family: "Didot";
+	src: url(Didot.woff) format('woff');
+}
+
+@font-face {
+	font-family: "Facultad";
+	src: url('Facultad-Regular.woff') format('woff');
+}
+
+#body-01 {
+	font-family: 'Schnyder', serif;
+	font-size: 24pt;
+	width: 700px;
+	padding: 0px 0px 0px 40px;
+}
+
+#body-02 {
+	font-family: 'Didot', serif;
+	font-size: 24pt;
+	width: 700px;
+	padding: 0px 0px 0px 40px;
+}
+
+#body-03 {
+	font-family: 'Facultad';
+	font-size: 24pt;
+	width: 700pt;
+	padding: 0px 0px 0px 40px;
+}
+
+li a:hover {
+	background-color: white;
+}
