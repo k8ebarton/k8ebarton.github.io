@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sentence Generator</title>
+	<style>
+		#adj {
+			color: red;
+		}
+		#noun1 {
+			color: blue;
+		}
+		#noun2 {
+			color: fuchsia;
+		}
+	</style>
+</head>
+<body>
+	<h2>JavaScript Variables</h2>
+
+	<p>In this example, x, y and z are variables.</p>
+
+	The <span id="adj"></span> <span id="noun1"></span> will go to the <span id="noun2"></span>
+
+<script> 
+	var x = "wrinkly"; 
+	var y = "planet";
+	var z = "moon";
+	document.getElementbyID("adj").innerHTML = x; 
+	document.getElementByID("noun1").innerHTML = y; 
+	document.getElementByID("noun2").innerHTML = z; 
+</script>
+
+</body>
+</html>
